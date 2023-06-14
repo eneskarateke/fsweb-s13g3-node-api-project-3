@@ -96,7 +96,7 @@ router.post(
   validateUserId,
   validatePost,
   async (req, res, next) => {
-    // YENİ OLUŞTURULAN KULLANICI NESNESİNİ DÖNDÜRÜN
+    // YENİ OLUŞTURULAN POST NESNESİNİ DÖNDÜRÜN
     // user id yi doğrulayan bir ara yazılım gereklidir.
     // ve istek gövdesini doğrulayan bir ara yazılım gereklidir.
 

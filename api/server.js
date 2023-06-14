@@ -15,6 +15,4 @@ server.get("/", (req, res) => {
   res.send(`<h2>Biraz ara yazılım yazalım!</h2>`);
 });
 
-server.use("/api/users", usersRouter);
-
 module.exports = server;

@@ -4,7 +4,7 @@ function logger(req, res, next) {
   // SİHRİNİZİ GÖRELİM
 
   console.log(
-    `[${new Date().toISOString()}]  ${req.method} to ${req.url}
+    `[${new Date().toISOString()}]  ${req.method} to ${req.originalUrl}
     )}`
   );
   next();
