@@ -1,6 +1,7 @@
 const express = require("express");
 const middleware = require("./middleware/middleware");
 const server = express();
+require("dotenv").config();
 const usersRouter = require("./users/users-router");
 // ekspres'in varsayılan olarak istek gövdelerinde JSON'u ayrıştıramayacağını unutmayın
 
